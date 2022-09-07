@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@controller/*": ["./controller/*"],
+      "@domain/*": ["./domain/*"],
+      "@data/*": ["./data/*"],
+    }
+  }
+}
